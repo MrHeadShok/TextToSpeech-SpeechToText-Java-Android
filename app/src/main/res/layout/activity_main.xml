@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/edt_speak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write it down!"
+        android:lines="6"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_speak"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="150dp"
+        android:background="#FF69B4"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false"
+        android:text="Listen to that!" />
+
+
+    <TextView
+        android:id="@+id/txvResult"
+        android:hint="You should be able to see what you just said :)!"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="500dp"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="normal"
+        />
+
+    <Button
+
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="700dp"
+        android:background="#0000CD"
+        android:text="tap to run mic"
+        android:onClick="getSpeechInput"
+        android:textColor="#FFC0CB" />
+
+
+
+</RelativeLayout>
