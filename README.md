@@ -14,3 +14,5 @@ Egalement on ajouté à intent le pack de la langue, le model, tout en mettant u
 
 
 La procédure Ondestroy est responsable sur la fermuture de l'application
+
+Vidéo pour la démo: https://streamable.com/rrg2zq
